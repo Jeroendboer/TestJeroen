@@ -1,0 +1,508 @@
+﻿html{
+    -webkit-background-size: cover;
+     -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+a{
+    text-decoration: none;
+    border:0;
+}
+
+/*-----Top Menu Start-----*/
+
+#login{
+    
+    height: 20px;
+    background-color:#3597d3;
+    float:right;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    text-decoration: none;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+}
+
+#login a{
+    
+    margin-left: auto;
+    margin-right: auto;
+    width:1024px;
+    height: 20px;
+    float:right;
+    font-family: calibri;
+    color: white;
+    background-color:#3597d3;
+    left: 0px;
+    right: 0px;
+    text-decoration: none;
+    text-align: right;
+    position: absolute;
+}
+
+#login a:hover{
+    
+    color:#828282;
+}
+
+/*-----Top Menu Ends-----*/
+
+/*-----HEADER BEGINS-----*/
+
+#disclaimer{
+
+    width: 140px;
+    height: 175px;
+    background-color: #F2B705;
+    padding: 0 5px 5px 5px;
+    font-family: arial;
+    font-size: 13px;
+    float: left;
+    position: fixed;
+    margin-top: 175px;
+    left: 0px;
+    text-align: center;
+    z-index: 1000;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#disclaimer h3{
+    font-size: 15px;
+    color: red;
+    font-weight: bold;
+}
+
+#header{
+    
+    width: 1024px;
+    height: 200px;
+    background-color:transparent;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+}
+
+#logo img{
+    margin:10px 0 0 0;
+    float: left;
+    width:190px;
+    height:190px;
+
+}
+nav ul{
+    list-style: none;
+    margin:0;
+    padding-left:5px;
+}
+nav ul li{
+    float:right;
+    margin-top:150px;
+    border:2px solid white;
+    width:150px;
+}
+nav ul li a {
+    height: 30px;
+    padding: 7px 0 0 0;
+    background-color: #3597d3;
+    display: block;
+    font-family: calibri;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+nav ul li a:hover{
+
+    background-color:#54595c;
+    color:white;
+    text-decoration: none;
+    border-bottom: 5px solid black;
+    height:25px;
+    }
+
+/*-----HEADER ENDS-----*/
+
+#body{
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+    height: 825px;
+    background-color:#cfcfcf;
+}
+
+/*-----SLIDER BEGINS-----*/
+
+#slider{
+    width: 1024px;
+    height: 360px;
+    background-color: white;
+}
+.slide_info{
+    
+    width: 100px;
+    height: 25px;
+    display: block;
+    position: relative;
+    bottom: 200px;
+    left: 325px;
+    background-color:#3597d3;
+    z-index: 99;
+    border-radius: 3px;
+    font-family: calibri;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+.slide_info2{
+    
+    width: 100px;
+    height: 25px;
+    display: block;
+    position: relative;
+    bottom: 200px;
+    left: 600px;
+    background-color:#3597d3;
+    z-index: 99;
+    border-radius: 3px;
+    font-family: calibri;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+.slide_info a{
+    width: 100px;
+    height: 25px;
+    display: block;
+    position: relative;
+    bottom: 200px;
+    left: 325px;
+    background-color:#3597d3;
+    z-index: 99;
+    text-decoration: none;
+    color: white;
+}
+
+.slide_info:hover{
+    width: 100px;
+    height: 25px;
+    display: block;
+    position: relative;
+    bottom: 200px;
+    left: 325px;
+    background-color:#54595c;
+    z-index: 99;
+    text-decoration: none;
+    color:white;
+}
+
+.slide_info2 a{
+    width: 100px;
+    height: 25px;
+    display: block;
+    position: relative;
+    bottom: 200px;
+    left: 600px;
+    background-color:#3597d3;
+    z-index: 99;
+    text-decoration: none;
+    color: white;
+}
+
+.slide_info2:hover{
+    width: 100px;
+    height: 25px;
+    display: block;
+    position: relative;
+    bottom: 200px;
+    left: 600px;
+    background-color:#BFA105;
+    z-index: 99;
+    text-decoration: none;
+    color: white;
+}
+
+/*-----SLIDER ENDS-----*/
+
+#header2{
+    
+    width:1019px;
+    background-color:#3597d3;
+    font-family: calibri;
+    font-weight: bold;
+    padding-left: 5px;
+    color: white;
+    font-size: 25px;
+}
+
+.header3{
+    
+    width:1019px;
+    background-color:#3597d3;
+    font-family: calibri;
+    font-weight: bold;
+    padding-left:5px;
+    margin:5px 0 0 0;
+    color: white;
+    font-size: 25px;
+    float:left;
+}
+
+.header_items{
+    
+    width:250px;
+    background-color:white;
+    font-family: calibri;
+    padding-left:5px;
+    margin:5px 0 0 0;
+    color:#54595c;
+    font-size: 20px;
+    float:left;
+}
+.item{
+
+    width: 250px;
+    height:210px;
+    background-color:white;
+    float: left;
+    display: block;
+    margin:5px 0 0 5px;
+    list-style: none;
+    position: relative;
+    overflow: hidden;
+}
+
+.item img{
+    padding:5px 0 5px 0;
+    width:250px;
+    height: 205px;
+
+}
+
+.item .textbox {
+    width:250px;
+    height:210px;
+    position:absolute;
+    top:0;
+    left:0;
+    margin-left:-250px;
+    background-color:#3597d3;
+
+}
+
+.textbox p{
+    font-family: calibri;
+    color: white;
+    font-size: 25px;
+    padding: 10px 0 0 5px;
+}
+
+.item .textbox2 {
+    width:250px;
+    height:210px;
+    position:absolute;
+    top:0;
+    left:0;
+    margin-left:-250px;
+    background-color:#54595c;
+
+}
+
+.textbox2 p{
+    font-family: calibri;
+    color: white;
+    font-size: 25px;
+    padding: 10px 0 0 5px;
+}
+
+.item:hover .textbox {
+    margin-left:0;
+}
+
+.item:hover .textbox2 {
+    margin-left:0;
+}
+
+.textbox {
+    -webkit-transition: all 0.6s ease;
+    transition: all 0.6s ease;
+}
+
+.textbox2 {
+    -webkit-transition: all 0.6s ease;
+    transition: all 0.6s ease;
+}
+
+/*-----FOOTER BEGINS-----*/
+
+
+#footer{
+    width:1024px;
+    height:150px;
+    background-color:#54595c;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    font-family: calibri;
+    color: white;
+    text-align: center;
+}
+.footer_item{
+    
+    width: 335px;
+    height:150px;
+    background-color:transparent;
+    margin:0 0 0 5px;
+    float: left;
+}
+
+.footer_item ul li{
+    text-decoration: none;
+    list-style-type: none;
+    margin:1px 3px 0 0;
+    padding: 0px;
+    float: left;
+}
+.footer_item img{
+    height: 50px;
+}
+
+.footer_item ul li:hover{
+    opacity: 0.5;
+    margin:0 3px 0 0;
+}
+
+
+/*-----FOOTER ENDS-----*/
+
+/*-----CREATORS PAGE-----*/
+
+.creators{
+    
+    margin-left:10px;
+    margin-top: 10px;
+    height:275px;
+    width:490px;
+    background-color: white;
+    border:3px solid #3597d3;
+    float: left;
+}
+
+.creatorsImg{
+    width: 100px;
+    margin:25px 25px 0 0;
+    float:right;
+}
+
+
+.creators_info1 h2{
+    padding: 0;
+    font-family: calibri;
+    color: #3597d3;
+    float: left;
+    margin-left: 10px;
+    font-size: 20px;
+    
+}
+
+.creators_info1 p{
+    
+    font-family: calibri;
+    color:#828282;
+    float: left;
+    width: 350px;
+    margin-left:10px;
+    
+}
+/*-----CREATORS PAGE ENDS-----*/
+
+/*-----LOGIN PAGE-----*/
+
+.logincreate{
+    
+    margin-left:10px;
+    margin-top: 10px;
+    height:350px;
+    width:490px;
+    background-color: white;
+    border:3px solid #3597d3;
+    float: left;
+}
+
+.logincreate table{
+
+    font-family: calibri;
+    color:#828282;
+    margin: 0 0 0 5px;
+}
+.logincreate h3{
+
+    font-family: calibri;
+    font-size: bold;
+    color:#3597d3;
+    margin: 10px 0 0 5px;
+}
+
+.logincreate button{
+
+    background-color:#3597d3;
+    width: 100px;
+    height: 25px;
+    color: white;
+    font-family: calibri;
+    text-align: center;
+    font-size: 15px;
+    float: right;
+}
+
+.logincreate table input{
+
+    font-family: calibri;
+    font-size: 12.5px;
+}
+
+/*-----Parts pagina-----*/
+
+#ASP{
+    font-family:Calibri;
+    color:#828282;
+}
+.item_small{
+
+    width: 123px;
+    height:140px;
+    background-color:white;
+    float: left;
+    display: block;
+    margin:5px 0 0 4px;
+    list-style: none;
+    position: relative;
+    overflow: hidden;
+}
+
+.item_small img{
+    padding:5px 0 2px 0;
+    width: 123px;
+    height:105px;
+    float: left;
+
+}
+
+.item_small p{
+    font-size: 15px;
+    font-family: calibri;
+    font-variant: small-caps;
+    color: #828282;
+    text-align: center;
+}
+
+
+
+
+
